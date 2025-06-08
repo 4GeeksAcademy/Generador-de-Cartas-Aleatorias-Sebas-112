@@ -1,5 +1,35 @@
-@import "bootstrap/dist/css/bootstrap.min.css";
+.card {
+  width: 200px;
+  height: 300px;
+  border-radius: 15px;
+  position: relative;
+  padding: 20px;
+  background: white;
+}
 
-body{
-    background: white;
+.top-suit, .bottom-suit {
+  font-size: 2rem;
+}
+
+.top-suit {
+  top: 10px;
+  left: 15px;
+}
+
+.bottom-suit {
+  bottom: 10px;
+  right: 15px;
+  transform: rotate(180deg);
+}
+
+.number {
+  font-size: 5rem;
+}
+
+.heart, .diamond {
+  color: red;
+}
+
+.spade, .club {
+  color: black;
 }
